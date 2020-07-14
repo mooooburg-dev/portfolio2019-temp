@@ -4,9 +4,9 @@
 포트폴리오 사이트가 급하게 필요한 상태에서 일반적인 옛날 방식으로 급하게 만들었던 버전  
 http://porfolio2019-temp.s3-website.ap-northeast-2.amazonaws.com/
 
-![image](https://user-images.githubusercontent.com/18201794/87385157-610bea00-c5d8-11ea-9ad4-18683881c922.png)
+![image](https://user-images.githubusercontent.com/18201794/87385479-1f2f7380-c5d9-11ea-8314-1dce8087b909.png)
+![image](https://user-images.githubusercontent.com/18201794/87385490-25255480-c5d9-11ea-8c82-c4a5c332fd79.png)
+![image](https://user-images.githubusercontent.com/18201794/87385532-3c644200-c5d9-11ea-96d1-2a9f4805cba1.png)
 
-![image](https://user-images.githubusercontent.com/18201794/87385287-ad572a00-c5d8-11ea-938f-d178bb8d38f7.png)
 
-![image](https://user-images.githubusercontent.com/18201794/87385317-bcd67300-c5d8-11ea-9adf-84b6cd0fde59.png)
 
