@@ -68,28 +68,26 @@ $(function(){
 		}
 	}
 
-
-
-
 	// index 인트로 애니메이션
 	function showIntro(){
 		TweenMax.to($('.pf_list'), 0.7, {top:0, delay:0.5, ease:Circ.easeOut, onComplete: function(){
 			TweenMax.to($('.t_pf_list'), 0.7, {opacity:1, delay: 0.2, onComplete: function(){
 				$('.logo_container').css({display:'block'});
-				TweenMax.to($('.logo_container'), 1, {opacity:1, onComplete: function(){
-					$('body .pf_list').on('click', function(e){
-						e.preventDefault();
-						setBtnInfo();
-					})
-				}});
+				TweenMax.to($('.logo_container'), 1, {opacity:1});
 			}});
-		}});
+		}
+		});
+		
+		$(".pf_list").on("click", function (e) {
+      e.preventDefault();
+      setBtnInfo();
+    });
 	}
 
-	function setBtnInfo(){
-		if(str_browse == 'pc'){
+	function setBtnInfo() {
+		if (str_browse == 'pc') {
+			console.log('!!~!');
 			location.href = './pf0.html';
-			console.log('##');
 		}
 		else{
 			$('.btn_info').css({'display':'block'});
