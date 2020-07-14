@@ -88,13 +88,14 @@ $(function(){
 
 	function setBtnInfo(){
 		if(str_browse == 'pc'){
-			location.href = '/portfolio2019/pf0.html';
+			location.href = './pf0.html';
+			console.log('##');
 		}
 		else{
 			$('.btn_info').css({'display':'block'});
 			TweenMax.to($('.btn_info'), 0.4, {opacity:1, onComplete:function(){
 				setTimeout( function(){
-					location.href = '/portfolio2019/pf0.html';
+					location.href = './pf0.html';
 				}, 5000)
 			}})
 
@@ -112,7 +113,7 @@ $(function(){
 			$('.btn_info').on('click', function(e){
 				e.preventDefault();
 				$('html, body').css({'overflow': '', 'height': ''});
-				location.href = '/portfolio2019/pf0.html';
+				location.href = './pf0.html';
 			});
 		}
 	}
@@ -121,7 +122,7 @@ $(function(){
 
 		$('.t_navi > a').on('click', function(e){
 			e.preventDefault();
-			location.href = '/portfolio2019/?utm=tohome';
+			location.href = '/?utm=tohome';
 		})
 		$('.prev_btn').on('click', function(e){
 			e.preventDefault();
